@@ -5,6 +5,7 @@ import Home from "./pages/home";
 import Test from "./pages/test";
 import Theodo from "./pages/theodo";
 import NotFound from "./pages/404";
+import Pokemon from "./pages/pokemon";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="test" element={<Test />} />
             <Route path="theodo" element={<Theodo />} />
+            <Route path="pokemon" element={<Pokemon />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

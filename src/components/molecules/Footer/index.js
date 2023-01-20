@@ -8,13 +8,16 @@ export default function Footer() {
       <h1 className="h1"> This is a Footer </h1>
       <div className="links">
         <Link to="" className="link">
-          Home Page
+          Home
         </Link>
         <Link to="test" className="link">
-          Test Page
+          Test
         </Link>
         <Link to="theodo" className="link">
-          Theodo Page
+          Theodo
+        </Link>
+        <Link to="pokemon" className="link">
+          Pokemon
         </Link>
       </div>
     </div>
