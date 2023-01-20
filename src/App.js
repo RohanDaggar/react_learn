@@ -4,6 +4,7 @@ import Footer from "./components/molecules/Footer";
 import Home from "./pages/home";
 import Test from "./pages/test";
 import Theodo from "./pages/theodo";
+import NotFound from "./pages/404";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="test" element={<Test />} />
             <Route path="theodo" element={<Theodo />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
         <div className="app-footer">
